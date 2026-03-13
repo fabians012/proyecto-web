@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    font-family: Arial;
+    background-image: url("https://static.wikia.nocookie.net/bobesponja/images/2/26/Bubbletown_002.png/revision/latest/scale-to-width/360?cb=20241017234336");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.barralateral {
+    width: 200px;
+    height: 100vh;
+    background: black;
+    position: fixed;
+}
+
+.barralateral a{
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.contenido {
+    margin-left: 200px;
+    padding: 20px;
+    flex: 1;
+}
+
+.titulo {
+    background: black;
+    color: red;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.texto {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
